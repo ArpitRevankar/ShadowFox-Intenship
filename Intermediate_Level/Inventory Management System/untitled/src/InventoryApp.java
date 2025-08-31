@@ -20,7 +20,7 @@ public class InventoryApp extends JFrame {
 
 
         JPanel topPanel = new JPanel(new BorderLayout());
-        JLabel searchLabel = new JLabel("🔍 Search: ");
+        JLabel searchLabel = new JLabel("Search: ");
         searchField = new JTextField();
         searchField.addKeyListener(new KeyAdapter() {
             public void keyReleased(KeyEvent e) {
@@ -168,3 +168,4 @@ public class InventoryApp extends JFrame {
         SwingUtilities.invokeLater(InventoryApp::new);
     }
 }
+
